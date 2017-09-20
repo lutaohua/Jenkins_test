@@ -17,6 +17,7 @@
 		2E9871DF1F712B02006DB9D0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9871DE1F712B02006DB9D0 /* ThirdViewController.m */; };
 		2E9871E21F720D02006DB9D0 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9871E11F720D02006DB9D0 /* FourViewController.m */; };
 		2E9871E51F720E73006DB9D0 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9871E41F720E73006DB9D0 /* FiveViewController.m */; };
+		2E9871E81F720FCD006DB9D0 /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9871E71F720FCD006DB9D0 /* SixViewController.m */; };
 		321430EE674604DC83066258 /* Pods_Jenkins_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7CD77B980B9BA45DA75C1E /* Pods_Jenkins_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		2E9871E11F720D02006DB9D0 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		2E9871E31F720E73006DB9D0 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
 		2E9871E41F720E73006DB9D0 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		2E9871E61F720FCD006DB9D0 /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		2E9871E71F720FCD006DB9D0 /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
 		3A64A2EB410D0084839B1965 /* Pods-Jenkins_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenkins_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jenkins_test/Pods-Jenkins_test.release.xcconfig"; sourceTree = "<group>"; };
 		6B7CD77B980B9BA45DA75C1E /* Pods_Jenkins_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jenkins_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7612FC2C728FEED05A7952 /* Pods-Jenkins_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jenkins_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jenkins_test/Pods-Jenkins_test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				2E9871E11F720D02006DB9D0 /* FourViewController.m */,
 				2E9871E31F720E73006DB9D0 /* FiveViewController.h */,
 				2E9871E41F720E73006DB9D0 /* FiveViewController.m */,
+				2E9871E61F720FCD006DB9D0 /* SixViewController.h */,
+				2E9871E71F720FCD006DB9D0 /* SixViewController.m */,
 				2E098B371F70CBB70079CCA7 /* Main.storyboard */,
 				2E098B3A1F70CBB70079CCA7 /* Assets.xcassets */,
 				2E098B3C1F70CBB70079CCA7 /* LaunchScreen.storyboard */,
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9871E21F720D02006DB9D0 /* FourViewController.m in Sources */,
+				2E9871E81F720FCD006DB9D0 /* SixViewController.m in Sources */,
 				2E098B471F70F6B00079CCA7 /* SecondViewController.m in Sources */,
 				2E9871DF1F712B02006DB9D0 /* ThirdViewController.m in Sources */,
 				2E098B361F70CBB70079CCA7 /* ViewController.m in Sources */,
@@ -378,7 +384,7 @@
 				INFOPLIST_FILE = Jenkins_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TianTianFeiDu.Jenkins-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisun.tt.KuuGa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -393,7 +399,7 @@
 				INFOPLIST_FILE = Jenkins_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TianTianFeiDu.Jenkins-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hisun.tt.KuuGa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

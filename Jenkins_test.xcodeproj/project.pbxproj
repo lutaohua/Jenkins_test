@@ -162,7 +162,7 @@
 				TargetAttributes = {
 					2E098B2A1F70CBB70079CCA7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = P3MDCGZMK7;
+						DevelopmentTeam = AMT5E8JS33;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -379,12 +379,12 @@
 			baseConfigurationReference = 7E7612FC2C728FEED05A7952 /* Pods-Jenkins_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P3MDCGZMK7;
+				DEVELOPMENT_TEAM = AMT5E8JS33;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Jenkins_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hisun.tt.KuuGa;
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.Light---Shallow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -394,12 +394,12 @@
 			baseConfigurationReference = 3A64A2EB410D0084839B1965 /* Pods-Jenkins_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P3MDCGZMK7;
+				DEVELOPMENT_TEAM = AMT5E8JS33;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Jenkins_test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hisun.tt.KuuGa;
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.Light---Shallow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
